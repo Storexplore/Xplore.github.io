@@ -4,7 +4,7 @@
 */
 
 /*Google fonts*/
-@import url('https://fonts.googleapis.com/css?family=Arial Rounded Bold:200,300,400,500,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=ArialRoundedBold:200,300,400,500,600,700,900');
 
 html,
 body {
@@ -44,8 +44,8 @@ h1,{
     color: #ffb300 !important;
 }
 .hero{
-    height: 100vh;
-    min-height: 600px;
+    height: 400px;
+    min-height: 400px;
 }
 .hero h1{
     margin-bottom: 60px;
