@@ -4,24 +4,31 @@
 */
 
 /*Google fonts*/
-@import url('https://fonts.googleapis.com/css?family=Catamaran:200,300,400,500,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Arial Rounded Bold:200,300,400,500,600,700,900');
 
 html,
 body {
     width: 100%;
-    height: 100%;
+    height:100%;
 }
 body{
-    font-family: 'Catamaran', sans-serif;
+    font-family: "Arial Rounded Bold", sans-serif;
     font-size: 16px;
 }
 .navbar-brand{
     font-weight: 900;
     color: #fff;
 }
-h1,h2,h3,h4,h5,h6{
-    font-weight: 600;
+h2,h3,h4,h5,h6{
+    font-weight: 500;
 }
+
+}
+h1,{
+	font-family: "arial rounded bold";
+    font-weight: 500;
+}
+
 .brand-logo{
     width: 180px;
 }
@@ -41,11 +48,11 @@ h1,h2,h3,h4,h5,h6{
     min-height: 600px;
 }
 .hero h1{
-    margin-bottom: 30px;
-    font-weight: 900;
+    margin-bottom: 60px;
+    font-weight: 600px;
 }
 .hero h2{
-    font-weight: 200;
+    font-weight: 300;
     line-height: 45px;
 }
 .store-img{
@@ -53,14 +60,14 @@ h1,h2,h3,h4,h5,h6{
     padding-bottom: 10px;
 }  
 a {
-    color: #512DA8;
+    color: #008000;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
 }
 a:hover,
 a:focus {
-    color: #512DA8;
+    color: #008000;
     outline: 0;
     text-decoration: none;
 }
@@ -78,7 +85,7 @@ section{
     width: 120px;
 }
 .card-outline-primary{
-    border: solid 1px #512DA8;
+    border: solid 1px #008000;
 }
 .sticky-navigation{
     top: -100px;
@@ -88,21 +95,21 @@ section{
 ================================================*/
 .bg-texture{
     background:-webkit-linear-gradient(-45deg, #ffb300 33%, transparent 0%),
-        linear-gradient(-45deg, #512DA8 100%, transparent 33%);
+        linear-gradient(-45deg, #008000 100%, transparent 33%);
     background:-moz-linear-gradient(-45deg, #ffb300 33%, transparent 0%),
-        linear-gradient(-45deg, #512DA8 100%, transparent 33%);
+        linear-gradient(-45deg, #008000 100%, transparent 33%);
     background:linear-gradient(-45deg, #ffb300 33%, transparent 0%),
-        linear-gradient(-45deg, #512DA8 100%, transparent 33%);
+        linear-gradient(-45deg, #008000 100%, transparent 33%);
 }
 .bg-texture-collage{
     background:-webkit-linear-gradient(-45deg, #ffb300 33%, transparent 0%),
-        linear-gradient(-45deg, #512DA8 67%, transparent 33%),
+        linear-gradient(-45deg, #008000 67%, transparent 33%),
         linear-gradient(-45deg, #ffb300 100%, transparent 67%);
     background:-moz-linear-gradient(-45deg, #ffb300 33%, transparent 0%),
-        linear-gradient(-45deg, #512DA8 67%, transparent 33%),
+        linear-gradient(-45deg, #008000 67%, transparent 33%),
         linear-gradient(-45deg, #ffb300 100%, transparent 67%);
     background:linear-gradient(-45deg, #ffb300 33%, transparent 0%),
-        linear-gradient(-45deg, #512DA8 67%, transparent 33%),
+        linear-gradient(-45deg, #008000 67%, transparent 33%),
         linear-gradient(-45deg, #ffb300 100%, transparent 67%);
 }
 .bg-alt {
@@ -115,7 +122,7 @@ section{
     background-color: #F9F9FA;
 }
 .bg-primary{
-    background-color: #512DA8 !important;
+    background-color: #008000 !important;
 }
 .bg-orange{
     background-color: #ffb300;
@@ -140,7 +147,7 @@ section{
     text-decoration:none;
 }
 .text-primary {
-    color: #512DA8 !important;
+    color: #008000 !important;
 }
 .text-orange{
     color: #ffb300 !important;
@@ -170,12 +177,18 @@ section{
 }
 .icon-box{
     color:#fff;
-    background-color: #512DA8;
+    background-color: #008000;
     vertical-align: middle;
     border-radius: 50px !important;
     padding:20px;
     display: inline;
 }
+
+.icon-box2{
+    
+    float: left;
+    width:50px; height:50px; margin:5px;
+    }
 /*===============================================
 * Colored Buttons
 ================================================*/
